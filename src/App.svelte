@@ -162,13 +162,17 @@
 
 <!-- Estructura contenido HTML -->
 <main>
+
+	<a href="https://bla.vercel.app" class="boton2">Volver atrás</a>
+
 	<h1>Entre discos y datos: <br> sintonías que nos conectan</h1>
-	<h4>Descubrí cómo nuestras canciones favoritas se entrelazan, comparando nuestros ritmos, <br> géneros y momentos musicales más escuchados del año.</h4>
+	<h4>Navegá por las canciones más escuchadas por Abril y Martín en el 2023.<br>Al hacer click en un disco, se grafican diferentes atributos musicales como acústica, bailabilidad, vivacidad, y más.</h4>
 	
 
 
 	<div class = "scroll-wrapper">
 	<div class="image-container">
+		<h3 class="scroll-title">Abril</h3>
 		<div class="Abril-container">
 			<div class="disco-container" data-song-id="La Bachata" onclick="handleDiscoClick(event)"> 
 				<img src="/images/Abril/bachata cerrado.png" alt="Disco cerrado" class="disco">
@@ -197,6 +201,7 @@
 	</div>
 
 	<div class="image-container">
+		<h3 class="scroll-title">Martín</h3>
 		<div class="Martin-container">
 			<div class="disco-container" data-song-id="Bien o Mal" onclick="handleDiscoClick(event)"> 
 				<img src="/images/Martin/Bien o mal cerrado.png" alt="Disco cerrado" class="disco">
@@ -305,23 +310,69 @@
 <!-- Estilos CSS -->
 
 <style>
+.boton2{
+	font-family: Remora Sans W5;
+	font-weight: 250;
+	font-size: 10px;
+	background-color: #9747FF;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+	margin: 20px;
+	position: absolute;
+	top: 20px; /* Distancia desde la parte superior */
+    left: 20px;
+	text-decoration: none;
+}
 
+.boton2:hover {
+	background-color: #6a2fb8;
+}
+
+.scroll-wrapper {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: center; /* Centra los contenedores horizontalmente */
+    align-items: flex-start; /* Asegura que todo se alinee desde la parte superior */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+	justify-content: center;
+	margin-top: 20px; 
+	gap: 20px;
+}
+
+
+
+.scroll-title {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 0; /* Elimina márgenes adicionales */
+}
 	.legend-text2{
-		display: block; /* Asegura que el texto ocupe su propia línea */
-    text-align: center; /* Centra el texto horizontalmente */
-    font-family: Bebas Neue, sans-serif; /* Fuente estilizada */
-    font-size: 20px; /* Tamaño de la fuente */
-    color: white; /* Color blanco */
+		display: block; 
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 20px;
+    color: white; 
     margin-bottom: 10px;
 	}
 
 	.grafico-individual-2 {
     display: flex;
-    flex-direction: column; /* Coloca el texto encima del gráfico */
-    align-items: center; /* Centra el contenido horizontalmente */
-    text-align: center; /* Centra el texto */
-    max-width: 400px; /* Limita el ancho máximo de cada gráfico */
-    width: 100%; /* Asegura que el contenedor se ajuste al tamaño disponible */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
 }
 
 	.legend {
@@ -353,38 +404,38 @@
 
 	.burbujas {
     display: flex;
-    flex-direction: column; /* Elementos en columna */
-    align-items: center; /* Centra el texto y los gráficos */
-    justify-content: center; /* Centra verticalmente */
-    text-align: center; /* Centra el texto */
-    margin: 30px auto; /* Espaciado desde otros elementos */
-    gap: 20px; /* Espaciado entre h3, p y los gráficos */
-    width: 90%; /* Ajusta el ancho del contenedor */
-    max-width: 1000px; /* Limita el ancho máximo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .burbujas h3 {
-    margin-bottom: 5px; /* Reduce el espacio inferior del h3 */
+    margin-bottom: 5px;
 }
 
 .burbujas p {
-    margin-top: 0; /* Elimina margen superior */
-    margin-bottom: 15px; /* Espaciado controlado con el contenido inferior */
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .graficos-burbujas {
-    display: flex; /* Activa el modo fila para los gráficos */
-    justify-content: center; /* Centra los gráficos horizontalmente */
-    gap: 20px; /* Espacio entre los gráficos */
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    flex-wrap: wrap; /* Permite que los gráficos se ajusten en pantallas pequeñas */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap; 
 }
 
 .graficos-burbujas .flourish-embed {
-    flex: 1; /* Hace que los gráficos ocupen espacio proporcionalmente */
-    max-width: 400px; /* Limita el ancho máximo de cada gráfico */
-    min-width: 200px; /* Define un ancho mínimo */
-    height: auto; /* Ajusta la altura automáticamente */
+    flex: 1; 
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
 }
 
 	.laterales{
@@ -403,24 +454,24 @@
 	}
 
 	.acoustic-graph {
-		display: flex; /* Activa flexbox */
-    	flex-direction: column; /* Organiza los hijos en columna */
-    	justify-content: center; /* Centra verticalmente los elementos */
-    	align-items: center; /* Centra horizontalmente los elementos */
-    	margin: 10px auto; /* Espaciado superior/inferior y centrado automático */
-    	width: 80%; /* Ajusta el ancho del contenedor */
-    	max-width: 800px; /* Limita el tamaño máximo del contenedor */
-    	text-align: center; /* Centra el texto dentro */
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	margin: 10px auto;
+    	width: 80%;
+    	max-width: 800px;
+    	text-align: center;
     	gap: 10px;
 	}
 
 	.acoustic-graph h3 {
-    margin-bottom: 5px; /* Reduce margen inferior del h3 */
+    margin-bottom: 5px;
 	}
 
 	.acoustic-graph p {
-		margin-top: 0; /* Elimina cualquier margen superior extra del párrafo */
-		margin-bottom: 10px; /* Espacio controlado debajo del párrafo */
+		margin-top: 0; 
+		margin-bottom: 10px;
 	}
 		
 
@@ -485,13 +536,6 @@
 		overflow: visible;
 	}
 	
-	.image-container {
-		display: flex;
-		gap: 200px;
-		margin-top: 20px; 
-		justify-content: center;
-		
-	}
 
 	.Abril-container {
 		width: 350px;
