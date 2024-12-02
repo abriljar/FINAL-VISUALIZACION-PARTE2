@@ -171,24 +171,24 @@
 	<div class="image-container">
 		<div class="Abril-container">
 			<div class="disco-container" data-song-id="La Bachata" onclick="handleDiscoClick(event)"> 
-				<img src="public/images/Abril/bachata cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Abril/bachata abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Abril/bachata cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Abril/bachata abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container" data-song-id="Milagrosa" onclick="handleDiscoClick(event)">
-				<img src="public/images/Abril/milagrosa cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Abril/milagrosa abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Abril/milagrosa cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Abril/milagrosa abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container"  data-song-id="Extasis" onclick="handleDiscoClick(event)">
-				<img src="public/images/Abril/extasis cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Abril/extasis abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Abril/extasis cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Abril/extasis abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container"data-song-id="Rara vez" onclick="handleDiscoClick(event)">
-				<img src="public/images/Abril/rara vez cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Abril/rara vez abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Abril/rara vez cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Abril/rara vez abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container" data-song-id="Baila Bach" onclick="handleDiscoClick(event)">
-				<img src="public/images/Abril/baila bach cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Abril/baila bach abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Abril/baila bach cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Abril/baila bach abierto.png" alt="Disco abierto" class="disco-hover">
 		  	</div>
 			  
 		</div>
@@ -199,24 +199,24 @@
 	<div class="image-container">
 		<div class="Martin-container">
 			<div class="disco-container" data-song-id="Bien o Mal" onclick="handleDiscoClick(event)"> 
-				<img src="public/images/Martin/Bien o mal cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Martin/Bien o mal abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Martin/Bien o mal cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Martin/Bien o mal abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container"  data-song-id="Inmortal" onclick="handleDiscoClick(event)">
-				<img src="public/images/Martin/inmortal cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Martin/inmortal abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Martin/inmortal cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Martin/inmortal abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container" data-song-id="Hood" onclick="handleDiscoClick(event)">
-				<img src="public/images/Martin/Hood cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Martin/Hood abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Martin/Hood cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Martin/Hood abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			<div class="disco-container" data-song-id="M.A" onclick="handleDiscoClick(event)">
-				<img src="public/images/Martin/MA cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Martin/MA abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Martin/MA cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Martin/MA abierto.png" alt="Disco abierto" class="disco-hover">
 		  	</div>
 			<div class="disco-container"data-song-id="Lo Tengo" onclick="handleDiscoClick(event)">
-				<img src="public/images/Martin/Lo tengo cerrado.png" alt="Disco cerrado" class="disco">
-				<img src="public/images/Martin/Lo tengo abierto.png" alt="Disco abierto" class="disco-hover">
+				<img src="/images/Martin/Lo tengo cerrado.png" alt="Disco cerrado" class="disco">
+				<img src="/images/Martin/Lo tengo abierto.png" alt="Disco abierto" class="disco-hover">
 			</div>
 			
 		</div>
@@ -238,7 +238,7 @@
 	
 	
 
-	<img src="public/images/tira.gif" alt="tira" class="tira">
+	<img src="/images/tira.gif" alt="tira" class="tira">
 	<h1>Nuestro perfil musical: Abril vs. Martín</h1>
 	<h4>Explorá nuestros géneros favoritos, artistas más escuchados y descubrí cómo se diferencian nuestros gustos.
 	<br> Una mirada general a lo que nos hace únicos a través de la música.</h4>
