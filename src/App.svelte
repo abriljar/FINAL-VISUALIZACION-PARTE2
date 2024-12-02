@@ -17,7 +17,7 @@
     };
 
     onMount(async () => {
-        const csvData = await d3.csv("src/data/Spotify.csv");
+        const csvData = await d3.csv("/data/Spotify.csv");
 
         // Crear mapa de canciones por nombre
         songData = csvData.reduce((acc, song) => {
