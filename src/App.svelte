@@ -324,6 +324,22 @@
 
 <style>
 
+@font-face {
+    font-family: 'Remora Sans W5';
+    src: url('/fonts/remora-sans.woff2') format('woff2'),
+         url('/fonts/remora-sans.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/bebas-neue.woff2') format('woff2'),
+         url('/fonts/bebas-neue.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 footer{
 		font-family: Bebas Neue;
 		font-size: 20px;
