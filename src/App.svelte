@@ -161,9 +161,12 @@
 
 
 <!-- Estructura contenido HTML -->
- <head>
-<link rel="stylesheet" href="https://use.typekit.net/zsm5fov.css"> 
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<head>
+	<style>
+		@import url("https://use.typekit.net/zsm5fov.css");
+		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	</style>
 </head>
 
 
