@@ -161,6 +161,9 @@
 
 
 <!-- Estructura contenido HTML -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Remora+Sans:wght@500&display=swap" rel="stylesheet">
+
+
 <main>
 
 	<a href="https://final-visualizacion-abril.vercel.app/" class="boton2">VOLVER ATRÁS</a>
