@@ -324,12 +324,12 @@
 <style>
 @font-face {
 	font-family: 'HelveticaNeueLTStd-Lt'; 
-            src: url("public/fonts/HelveticaNeueLTStd-Lt.otf");
+            src: url("/fonts/HelveticaNeueLTStd-Lt.otf");
         }
 
         @font-face {
             font-family: 'RemoraSans-W5Medium';
-            src: url('public/fonts/RemoraSans-W5Medium.otf');
+            src: url('/fonts/RemoraSans-W5Medium.otf');
         }
 
 	
