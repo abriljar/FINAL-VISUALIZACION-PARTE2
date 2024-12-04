@@ -323,22 +323,17 @@
 <!-- Estilos CSS -->
 
 <style>
-
 @font-face {
-    font-family: 'Remora Sans W5';
-    src: url('/fonts/remora-sans.woff2') format('woff2'),
-         url('/fonts/remora-sans.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
+	font-family: 'HelveticaNeueLTStd-Lt'; 
+            src: url("public/fonts/HelveticaNeueLTStd-Lt.otf") format('otf');
+        }
 
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('/fonts/bebas-neue.woff2') format('woff2'),
-         url('/fonts/bebas-neue.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
+        @font-face {
+            font-family: 'RemoraSans-W5Medium';
+            src: url('public/fonts/RemoraSans-W5Medium.otf') format('otf');
+        }
+
+	
 
 footer{
 		font-family: Bebas Neue;
@@ -357,7 +352,7 @@ footer{
 	}
 
 .boton2{
-	font-family: Remora Sans W5;
+	font-family: RemoraSans-W5Medium;
 	font-weight: 250;
 	font-size: 10px;
 	background-color: #9747FF;
@@ -550,7 +545,7 @@ footer{
 	}
 
 	h1{
-		font-family: Remora Sans W5;
+		font-family: RemoraSans-W5Medium;
 		margin: 0; 
 		text-align: center;
 		font-size: 40px;
@@ -563,14 +558,14 @@ footer{
 	}
 	
 	h4 {
-		font-family: Helvetica Neue LT Std;
+		font-family: HelveticaNeueLTStd-Lt;
 		font-weight: lighter;
 		text-align: center;
 		font-size: 20px;
 	}
 
 	p{
-		font-family: Helvetica Neue LT Std;
+		font-family: HelveticaNeueLTStd-Lt;
 		font-weight: lighter;
 		text-align: center;
 		font-size: 17px;
