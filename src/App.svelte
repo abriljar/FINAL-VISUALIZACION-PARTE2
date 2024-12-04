@@ -161,8 +161,8 @@
 
 
 <!-- Estructura contenido HTML -->
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family:wght@400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/zsm5fov.css">
+<link rel="stylesheet" href="https://use.typekit.net/zsm5fov.css"> <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family:wght@400&display=swap" rel="stylesheet">
+
 
 
 <main>
