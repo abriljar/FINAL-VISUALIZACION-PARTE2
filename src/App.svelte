@@ -164,7 +164,6 @@
 
 <head>
 	<style>
-		@import url("https://use.typekit.net/zsm5fov.css");
 		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 	</style>
 </head>
@@ -325,18 +324,18 @@
 <style>
 @font-face {
 	font-family: 'HelveticaNeueLTStd-Lt'; 
-            src: url("public/fonts/HelveticaNeueLTStd-Lt.otf") format('otf');
+            src: url("public/fonts/HelveticaNeueLTStd-Lt.otf");
         }
 
         @font-face {
             font-family: 'RemoraSans-W5Medium';
-            src: url('public/fonts/RemoraSans-W5Medium.otf') format('otf');
+            src: url('public/fonts/RemoraSans-W5Medium.otf');
         }
 
 	
 
 footer{
-		font-family: Bebas Neue;
+		font-family: "Bebas Neue";
 		font-size: 20px;
 		background-color: #6a2fb8;
 		color: white;
@@ -352,7 +351,7 @@ footer{
 	}
 
 .boton2{
-	font-family: RemoraSans-W5Medium;
+	font-family: "RemoraSans-W5Medium";
 	font-weight: 250;
 	font-size: 10px;
 	background-color: #9747FF;
@@ -392,7 +391,7 @@ footer{
 
 
 .scroll-title {
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue";
     font-size: 24px;
     color: white;
     text-align: center;
@@ -401,7 +400,7 @@ footer{
 	.legend-text2{
 		display: block; 
     text-align: center;
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue";
     font-size: 20px;
     color: white; 
     margin-bottom: 10px;
@@ -438,7 +437,7 @@ footer{
 	}
 
 	.legend-text {
-		font-family: Bebas Neue;
+		font-family: "Bebas Neue";
 		font-size: 20px;
 		color: white;
 	}
@@ -545,7 +544,7 @@ footer{
 	}
 
 	h1{
-		font-family: RemoraSans-W5Medium;
+		font-family: "RemoraSans-W5Medium";
 		margin: 0; 
 		text-align: center;
 		font-size: 40px;
@@ -558,14 +557,14 @@ footer{
 	}
 	
 	h4 {
-		font-family: HelveticaNeueLTStd-Lt;
+		font-family: "HelveticaNeueLTStd-Lt";
 		font-weight: lighter;
 		text-align: center;
 		font-size: 20px;
 	}
 
 	p{
-		font-family: HelveticaNeueLTStd-Lt;
+		font-family: "HelveticaNeueLTStd-Lt";
 		font-weight: lighter;
 		text-align: center;
 		font-size: 17px;
